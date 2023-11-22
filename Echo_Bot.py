@@ -1,6 +1,5 @@
 import streamlit as st
-st.title("Echo Bot")
-st.write("컴퓨터소프트웨어학부 김정훈 23113976")
+st.title("Echo Bot\n23113976-김정훈")
 # Initialize chat history
 if "messages" not in st.session_state:
     st.session_state.messages = []
